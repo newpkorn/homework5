@@ -125,7 +125,7 @@ footer p {
 }
 
 @media(max-width: 800px) {
-    .status-bar {
+    .status-bar, .progress-number {
         width: 60%;
     }
 }
@@ -135,5 +135,9 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .progress-number {
+        width: 60%;
+        display: flex;
     }
 }
