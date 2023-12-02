@@ -9,7 +9,7 @@
 body {
     max-width: 80vw;
     margin: auto;
-    background: linear-gradient(0deg, rgba(2,50,39,0.9500175070028011) 11%, rgba(31,151,153,1) 28%, rgba(97,121,50,1) 92%) no-repeat;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8855917366946778) 0%, rgba(24,88,115,0.9864320728291317) 30%, rgba(42,120,101,1) 52%, rgba(97,121,50,1) 91%) no-repeat;
     background-position: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -52,6 +52,9 @@ main > h1 {
     width: 50%;
     font-size: 5em;
     margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main h3 {
