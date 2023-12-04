@@ -35,7 +35,7 @@ header a {
 
 main {
     /* border: 1px solid magenta; */
-    min-height: 86vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,12 +49,12 @@ main h1, h3 {
 }
 
 main > h1 {
-    width: 50%;
-    font-size: 5em;
+    width: 30%;
+    font-size: 4em;
     margin-bottom: 1.5rem;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 main h3 {
