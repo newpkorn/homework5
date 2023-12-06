@@ -68,6 +68,17 @@ main h3 {
     height: 1em;
     width: 70%;
     background-color: lightseagreen;
+    animation-name: progress-bar;
+    animation-duration: 9s;
+}
+
+@keyframes progress-bar {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
 }
 
 .progress-number {
